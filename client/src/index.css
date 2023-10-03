@@ -4,19 +4,20 @@ body {
   background-color: rgb(233, 241, 249);
   display: flex;
   justify-content: center;
-  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-family: "Trebuchet MS", Arial, sans-serif;
 }
 
 .app {
   background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0,0,0, 0.05) 0 6px 24px, rgba(0,0,0, 0.08) 0 0 0 1px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px, rgba(0, 0, 0, 0.08) 0 0 0 1px;
   border-radius: 10px;
   padding: 10px;
   width: 800px;
   margin-top: 50px;
 }
 
-.button-container, .info-container {
+.button-container,
+.info-container {
   display: flex;
   align-items: center;
 }
@@ -71,7 +72,7 @@ body {
 
 .create:active {
   background-color: rgb(108, 115, 148);
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
 }
 
 .signout {
@@ -98,14 +99,13 @@ input {
   border: 1.5px solid rgb(230, 232, 236);
 }
 
-
 /* List Header */
 
 .list-header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  border-bottom: rgba(0,0,0,0.05) 1px solid;
+  border-bottom: rgba(0, 0, 0, 0.05) 1px solid;
 }
 
 /* List Item */
@@ -114,7 +114,7 @@ input {
   width: 100%;
   margin: 10px 0;
   border-radius: 10px;
-  box-shadow: rgba(0,0,0,0.08) 0 0 0 1px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 0 1px;
   display: flex;
   justify-content: space-between;
 }
@@ -124,10 +124,10 @@ input {
 }
 
 .tick path {
-  fill:none;
-  stroke:#000;
-  stroke-miterlimit:10;
-  stroke-width:32px
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 32px;
 }
 
 /* Modal */
@@ -137,7 +137,7 @@ input {
   top: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0,0,0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,7 +148,7 @@ input {
   background-color: rgb(255, 255, 255);
   padding: 40px;
   border-radius: 10px;
-  box-shadow: rgba(0,0,0,0.05) 0 6px 24px 0, rgba(0,0,0,0.08) 0 0 0 1px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px 0, rgba(0, 0, 0, 0.08) 0 0 0 1px;
 }
 
 .modal .form-title-container {
@@ -185,13 +185,13 @@ input {
   width: 500px;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: rgba(0,0,0,0.05) 0 6px 24px, rgba(0,0,0,0.08) 0 0 0 1px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px, rgba(0, 0, 0, 0.08) 0 0 0 1px;
 }
 
 .auth-container-box form {
   display: flex;
   flex-direction: column;
-  height:350px;
+  height: 350px;
   padding: 20px;
 }
 
@@ -203,7 +203,7 @@ input {
   width: 50%;
   border: none;
   padding: 10px;
-  color: rgb(35,38, 47);
+  color: rgb(35, 38, 47);
 }
 
 .copyright {
@@ -232,5 +232,10 @@ input {
 }
 
 .task-title {
+  margin-left: 10px;
   width: 300px;
+}
+
+.checkbox {
+  margin-left: 10px;
 }
